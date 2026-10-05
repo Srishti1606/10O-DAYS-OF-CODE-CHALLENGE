@@ -1,0 +1,18 @@
+# Day-53 (05 October 2026)
+
+## Problem Statement
+Write a Program to take an array of integers as input, calculate the pivot index of this array. The pivot index is the index where the sum of all the numbers strictly to the left of the index is equal to the sum of all the numbers strictly to the index's right. If the index is on the left edge of the array, then the left sum is 0 because there are no elements to the left. This also applies to the right edge of the array. Print the leftmost pivot index. If no such index exists, print -1.
+
+### Sample Test Cases
+```text
+Input:  nums = [1,7,3,6,5,6]
+Output: 3
+```
+```text
+Input:  nums = [1,2,3]
+Output: -1
+```
+```text
+Input:  nums = [2,1,-1]
+Output: 0
+```
